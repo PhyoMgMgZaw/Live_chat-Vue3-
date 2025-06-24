@@ -1,6 +1,6 @@
 import { ref } from "vue";
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
-import { auth } from "@/firebase/config";  // Import your auth instance
+import { auth } from "@/firebase/config";
 
 let useRegister = () => {
   let error = ref("");
